@@ -2404,16 +2404,16 @@
         },
         {
             "name": "jiannei/laravel-response",
-            "version": "v4.0.2",
+            "version": "v4.3.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Jiannei/laravel-response.git",
-                "reference": "ba90958a6bdcfbd98807bb1d98b7d4a2752fa3df"
+                "url": "https://github.com/jiannei/laravel-response.git",
+                "reference": "16b00215f8380420fae6193e6ea89415e0b16d6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Jiannei/laravel-response/zipball/ba90958a6bdcfbd98807bb1d98b7d4a2752fa3df",
-                "reference": "ba90958a6bdcfbd98807bb1d98b7d4a2752fa3df",
+                "url": "https://api.github.com/repos/jiannei/laravel-response/zipball/16b00215f8380420fae6193e6ea89415e0b16d6e",
+                "reference": "16b00215f8380420fae6193e6ea89415e0b16d6e",
                 "shasum": ""
             },
             "require": {
@@ -2421,11 +2421,8 @@
             },
             "require-dev": {
                 "jiannei/laravel-enum": "^3.0",
-                "laravel/legacy-factories": "^1.1",
-                "league/fractal": "^0.19.2",
-                "orchestra/database": "^6.0",
-                "orchestra/testbench": "^6.0",
-                "phpunit/phpunit": "^9.3.3"
+                "orchestra/testbench": "^7.0",
+                "phpunit/phpunit": "^9.5.10"
             },
             "type": "library",
             "extra": {
@@ -2455,10 +2452,10 @@
             ],
             "description": "Laravel api response data format.",
             "support": {
-                "issues": "https://github.com/Jiannei/laravel-response/issues",
-                "source": "https://github.com/Jiannei/laravel-response/tree/v4.0.2"
+                "issues": "https://github.com/jiannei/laravel-response/issues",
+                "source": "https://github.com/jiannei/laravel-response/tree/v4.3.1"
             },
-            "time": "2021-09-27T09:45:27+00:00"
+            "time": "2022-04-29T17:00:25+00:00"
         },
         {
             "name": "laravel/lumen-framework",
@@ -8558,5 +8555,5 @@
         "ext-json": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
