@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "415bebe710bc094ea199a75ff271a70b",
+    "content-hash": "322d1d34903839104c45bc076597017c",
     "packages": [
         {
             "name": "brick/math",
@@ -2404,16 +2404,16 @@
         },
         {
             "name": "jiannei/laravel-response",
-            "version": "v4.0.2",
+            "version": "v5.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Jiannei/laravel-response.git",
-                "reference": "ba90958a6bdcfbd98807bb1d98b7d4a2752fa3df"
+                "url": "https://github.com/jiannei/laravel-response.git",
+                "reference": "eeafc6a862b95761bbfbce385460865576775b81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Jiannei/laravel-response/zipball/ba90958a6bdcfbd98807bb1d98b7d4a2752fa3df",
-                "reference": "ba90958a6bdcfbd98807bb1d98b7d4a2752fa3df",
+                "url": "https://api.github.com/repos/jiannei/laravel-response/zipball/eeafc6a862b95761bbfbce385460865576775b81",
+                "reference": "eeafc6a862b95761bbfbce385460865576775b81",
                 "shasum": ""
             },
             "require": {
@@ -2421,11 +2421,8 @@
             },
             "require-dev": {
                 "jiannei/laravel-enum": "^3.0",
-                "laravel/legacy-factories": "^1.1",
-                "league/fractal": "^0.19.2",
-                "orchestra/database": "^6.0",
-                "orchestra/testbench": "^6.0",
-                "phpunit/phpunit": "^9.3.3"
+                "orchestra/testbench": "^7.0",
+                "phpunit/phpunit": "^9.5.10"
             },
             "type": "library",
             "extra": {
@@ -2455,10 +2452,10 @@
             ],
             "description": "Laravel api response data format.",
             "support": {
-                "issues": "https://github.com/Jiannei/laravel-response/issues",
-                "source": "https://github.com/Jiannei/laravel-response/tree/v4.0.2"
+                "issues": "https://github.com/jiannei/laravel-response/issues",
+                "source": "https://github.com/jiannei/laravel-response/tree/v5.0.0"
             },
-            "time": "2021-09-27T09:45:27+00:00"
+            "time": "2022-12-29T08:01:52+00:00"
         },
         {
             "name": "laravel/lumen-framework",
@@ -8558,5 +8555,5 @@
         "ext-json": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
